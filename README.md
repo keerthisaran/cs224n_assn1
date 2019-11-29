@@ -33,11 +33,11 @@ sh collect_submission.sh
 
 - Miscellaneous
 
-If this error occurs:
-```
-ImportError: No named '_tkinter', please install the python3-tk package
-```
-Install `tkinter`
-```
-sudo apt-get install python3-tk
-```
+  If this error occurs:
+  ```
+  ImportError: No named '_tkinter', please install the python3-tk package
+  ```
+  Install `tkinter`
+  ```
+  sudo apt-get install python3-tk
+  ```
