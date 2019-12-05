@@ -42,7 +42,7 @@ def computeCoOccurrenceMatrix(corpus, window_size=4):
             corpus (list of list of strings): corpus of documents
             window_size (int): size of context window
         Return:
-            M (numpy matrix of shape (number of unique words in the corpus , number of number of corpus words)): 
+            M (numpy matrix of shape (number of unique words in the corpus , number of unique words in the corpus)):
                 Co-occurence matrix of word counts. 
                 The ordering of the words in the rows/columns should be the same as the ordering of the words given by the distinct_words function.
             word2Ind (dict): dictionary that maps word to index (i.e. row/column number) for matrix M.
